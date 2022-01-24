@@ -1,38 +1,22 @@
-.App {
+/* .App {
   text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+} */
+* {
+  font-family: "Assistant", sans-serif;
+  background-color: #263f44;
+  color: #c9dadd;
+  box-sizing: border-box;
+  color: #698474;
+  color: #889e81;
+  color: #bac7a7;
+  color: #e5e4cc;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* https://colorhunt.co/palette/93b5c6c9ccd5e4d8dcffe3e3 */
+/* https://colorhunt.co/palette/698474889e81bac7a7e5e4cc */

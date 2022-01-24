@@ -1,0 +1,50 @@
+.bb {
+  background-color: #202e5e;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+}
+/* .nav-logoo{
+    font-size: 40px;
+    font-weight: 700px;
+    margin-left: 30px;
+} */
+.toggleBtn {
+  background-color: white;
+}
+.navbar-light .navbar-brand {
+  display: inline-block;
+  color: #ffff;
+}
+.navigation-item {
+  color: #ccd6f6 !important;
+}
+.navigation-item:hover {
+  border-radius: 8px;
+  position: static;
+}
+.navigation-item:focus {
+  background-color: #f32a74;
+  border-radius: 5px;
+}
+.navigation-item.active {
+  color: #ffff;
+}
+
+.animation-fade {
+  animation: fade 6s infinite ease-in-out;
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
