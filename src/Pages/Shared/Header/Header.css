@@ -21,17 +21,20 @@
 }
 .navigation-item {
   color: #ccd6f6 !important;
+  padding: 10px;
 }
 .navigation-item:hover {
   border-radius: 8px;
   position: static;
 }
 .navigation-item:focus {
-  background-color: #f32a74;
-  border-radius: 5px;
 }
+
 .navigation-item.active {
   color: #ffff;
+  background-color: #f32a74;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .animation-fade {

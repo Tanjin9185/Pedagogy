@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import initializeAuthentication from '../Pages/Login/firebase/firebase.initialize';
+import initializeAuthentication from '../Pages/Login/Firebase/firebase.initialize';
 import { getAuth, signInWithPopup, GoogleAuthProvider, signInWithEmailAndPassword, sendPasswordResetEmail, createUserWithEmailAndPassword, sendEmailVerification, onAuthStateChanged, signOut, updateProfile } from "firebase/auth";
 
 
@@ -31,6 +31,7 @@ const useFirebase = () => {
         signOut(auth)
             .then(() => {
                 setUser({});
+                console.log("okkk");
             })
             .catch((error) => { })
             .finally(() => {
